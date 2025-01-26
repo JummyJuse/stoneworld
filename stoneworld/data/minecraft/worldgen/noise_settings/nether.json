@@ -48,55 +48,39 @@
       "ridges": 0,
       "initial_density_without_jaggedness": 0,
       "final_density": {
-        "type": "minecraft:squeeze",
-        "argument": {
-          "type": "minecraft:mul",
-          "argument1": 0.64,
-          "argument2": {
-            "type": "minecraft:interpolated",
-            "argument": {
-              "type": "minecraft:blend_density",
-              "argument": {
-                "type": "minecraft:add",
-                "argument1": 2.685,
-                "argument2": {
-                  "type": "minecraft:mul",
-                  "argument1": {
-                    "type": "minecraft:y_clamped_gradient",
-                    "from_y": 0,
-                    "to_y": 32,
-                    "from_value": 0,
-                    "to_value": 1
-                  },
-                  "argument2": {
-                    "type": "minecraft:add",
-                    "argument1": -2.5,
-                    "argument2": {
-                      "type": "minecraft:add",
-                      "argument1": 0.9375,
-                      "argument2": {
-                        "type": "minecraft:mul",
-                        "argument1": {
-                          "type": "minecraft:y_clamped_gradient",
-                          "from_y": 96,
-                          "to_y": 128,
-                          "from_value": 1,
-                          "to_value": 0
-                        },
-                        "argument2": {
-                          "type": "minecraft:add",
-                          "argument1": -0.9375,
-                          "argument2": "minecraft:nether/base_3d_noise"
-                        }
-                      }
-                    }
-                  }
-                }
-              }
+        "type": "minecraft:add",
+        "argument1": {
+            "type": "minecraft:y_clamped_gradient",
+            "from_y": 0,
+            "to_y": 128,
+            "from_value": -1.0,
+            "to_value": 1.0
+        },
+        "argument2": {
+            "type": "minecraft:mul",
+            "argument1": {
+            "type": "minecraft:noise",
+            "noise": "minecraft:cave_layer",
+            "xz_scale": 0.25,
+            "y_scale": 0.5
+            },
+            "argument2": {
+            "type": "minecraft:add",
+            "argument1": {
+                "type": "minecraft:noise",
+                "noise": "minecraft:cave_layer",
+                "xz_scale": 0.25,
+                "y_scale": 0.5
+            },
+            "argument2": {
+                "type": "minecraft:noise",
+                "noise": "minecraft:cave_entrance",
+                "xz_scale": 0.5,
+                "y_scale": 0.5
             }
-          }
+            }
         }
-      },
+    },
       "vein_toggle": 0,
       "vein_ridged": 0,
       "vein_gap": 0
