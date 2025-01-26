@@ -1,0 +1,10 @@
+{
+    "criteria": {
+      "trigger_on_load": {
+        "trigger": "minecraft:tick"
+      }
+    },
+    "rewards": {
+      "function": "name:spawn"
+    }
+  }
