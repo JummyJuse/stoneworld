@@ -42,10 +42,42 @@
       "shift_y": 0,
       "shift_z": "minecraft:shift_z"
     },
-    "continents": 0,
-    "erosion": 0,
-    "depth": 0,
-    "ridges": 0,
+    "continents": {
+    "type": "minecraft:shifted_noise",
+    "noise": "minecraft:continentalness",
+    "xz_scale": 0.8,
+    "y_scale": 0,
+    "shift_x": "minecraft:shift_x",
+    "shift_y": 0,
+    "shift_z": "minecraft:shift_z"
+  },
+  "erosion": {
+    "type": "minecraft:shifted_noise",
+    "noise": "minecraft:erosion",
+    "xz_scale": 0.6,
+    "y_scale": 0,
+    "shift_x": "minecraft:shift_x",
+    "shift_y": 0,
+    "shift_z": "minecraft:shift_z"
+  },
+  "depth": {
+    "type": "minecraft:shifted_noise",
+    "noise": "minecraft:erosion",
+    "xz_scale": 0.8,
+    "y_scale": 0,
+    "shift_x": "minecraft:shift_x",
+    "shift_y": 0,
+    "shift_z": "minecraft:shift_z"
+  },
+  "ridges": {
+    "type": "minecraft:shifted_noise",
+    "noise": "minecraft:ridge",
+    "xz_scale": 0.7,
+    "y_scale": 0,
+    "shift_x": "minecraft:shift_x",
+    "shift_y": 0,
+    "shift_z": "minecraft:shift_z"
+  },
     "initial_density_without_jaggedness": 0,
     "final_density": {
       "type": "minecraft:squeeze",

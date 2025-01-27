@@ -1,9 +1,9 @@
 {
-  "feature": "minecraft:ore_diamond_large",
+  "feature": "minecraft:ore_redstone",
   "placement": [
     {
-      "type": "minecraft:rarity_filter",
-      "chance": 14
+      "type": "minecraft:count",
+      "count": 8
     },
     {
       "type": "minecraft:in_square"
@@ -13,14 +13,14 @@
       "height": {
         "type": "minecraft:trapezoid",
         "max_inclusive": {
-          "above_bottom": 80
+          "above_bottom": 32
         },
         "min_inclusive": {
-          "above_bottom": -80
+          "above_bottom": -32
         }
       },
       "min_inclusive": {
-        "above_bottom": -80
+        "above_bottom": -32
       },
       "max_inclusive": {
         "above_bottom": 384
