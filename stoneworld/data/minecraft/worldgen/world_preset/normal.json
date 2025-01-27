@@ -36,13 +36,28 @@
               {
                 "biome": "minecraft:deep_dark",
                 "parameters": {
-                  "temperature": [-1, 1],
-                  "humidity": [0, 0.5],
-                  "continentalness": [0.8, 1],
-                  "erosion": [-1, -0.7],
-                  "depth": [0.95, 1],
-                  "weirdness": [-1, 1],
-                  "offset": 0
+                  "continentalness": [
+                    -1,
+                    1
+                  ],
+                  "depth": 1.1,
+                  "erosion": [
+                    -1,
+                    -0.375
+                  ],
+                  "humidity": [
+                    -1,
+                    1
+                  ],
+                  "offset": 0,
+                  "temperature": [
+                    -1,
+                    1
+                  ],
+                  "weirdness": [
+                    -1,
+                    1
+                  ]
                 }
               },
               {
@@ -77,9 +92,10 @@
       "generator": {
         "type": "minecraft:noise",
         "biome_source": {
-          "type": "minecraft:multi_noise",
-          "biomes": [
-            {
+          
+            "type": "minecraft:multi_noise",
+            "biomes": [
+              {
               "biome": "minecraft:basalt_deltas",
               "parameters": {
                 "continentalness": [
