@@ -2,7 +2,7 @@ $summon minecraft:chest_minecart ~ ~ ~ {Tags:[$(tagg)]}
 
 $loot replace entity @n[type=chest_minecart,tag=$(tagg)] container.0 loot name:$(loott)
 $data modify storage name:block text set from entity @n[type=chest_minecart,tag=$(tagg)] Items[{Slot:0b}].id
-function name:place with storage name:block
+function stoneworld:place with storage name:block
 $item replace entity @n[type=chest_minecart,tag=$(tagg)] container.0 with air
 $kill @n[type=chest_minecart,tag=$(tagg)]
 $scoreboard players set @n[tag=$(gentag)] timer 0

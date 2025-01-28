@@ -5,6 +5,6 @@
       }
     },
     "rewards": {
-      "function": "name:spawn"
+      "function": "stoneworld:spawn"
     }
   }
