@@ -1,0 +1,20 @@
+{
+  "feature": "stoneworld:oak_leave_pile",
+  "placement": [
+    {
+      "type": "minecraft:noise_based_count",
+      "noise_factor": 80,
+      "noise_offset": 0.3,
+      "noise_to_count_ratio": 193
+    },
+    {
+      "type": "minecraft:environment_scan",
+      "direction_of_search": "down",
+      "max_steps": 2,
+      "target_condition": {
+        "type": "minecraft:matching_block_tag",
+        "tag": "stoneworld:underground_roots"
+      }
+    }
+  ]
+}
