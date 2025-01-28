@@ -1,6 +1,11 @@
 {
     "type": "minecraft:stonecutting",
-    "ingredient": "minecraft:sandstone",
+    "ingredient": [
+        "minecraft:sandstone",
+        "minecraft:smooth_sandstone",
+        "minecraft:chiseled_sandstone",
+        "minecraft:cut_sandstone"
+    ],
     "result": {
       "count": 4,
       "id": "minecraft:sand"
