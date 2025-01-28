@@ -39,7 +39,7 @@
               }
             },
             {
-              "biome": "stoneworld:dripstone_caves",
+              "biome": "minecraft:dripstone_caves",
               "parameters": {
                 "temperature": [
                   -1,
@@ -69,7 +69,7 @@
               }
             },
             {
-              "biome": "stoneworld:lush_caves",
+              "biome": "minecraft:lush_caves",
               "parameters": {
                 "temperature": [
                   -1,
@@ -96,33 +96,6 @@
                   0.4
                 ],
                 "offset": 0
-              }
-            },
-            {
-              "biome": "stoneworld:deep_dark",
-              "parameters": {
-                "continentalness": [
-                  -1,
-                  1
-                ],
-                "depth": 1.1,
-                "erosion": [
-                  -1,
-                  -0.375
-                ],
-                "humidity": [
-                  -1,
-                  1
-                ],
-                "offset": 0,
-                "temperature": [
-                  -1,
-                  1
-                ],
-                "weirdness": [
-                  -1,
-                  1
-                ]
               }
             },
             {
@@ -153,7 +126,7 @@
               }
             },
             {
-              "biome": "stoneworld:plains",
+              "biome": "minecraft:plains",
               "parameters": {
                 "temperature": [
                   0.5,
