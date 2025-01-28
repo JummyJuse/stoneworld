@@ -2,19 +2,18 @@
   "type": "minecraft:cave",
   "config": {
     "debug_settings": {
-      
       "debug_mode": true,
       "air_state": {
-        "Name": "minecraft:oak_wood"
+        "Name": "minecraft:pale_oak_wood"
       },
       "water_state": {
-        "Name": "minecraft:oak_wood"
+        "Name": "minecraft:pale_oak_wood"
       },
       "lava_state": {
-        "Name": "minecraft:oak_wood"
+        "Name": "minecraft:pale_oak_wood"
       },
       "barrier_state": {
-        "Name": "minecraft:oak_wood"
+        "Name": "minecraft:pale_oak_wood"
       }
     },
     "floor_level": {
@@ -30,7 +29,7 @@
     "lava_level": {
       "above_bottom": 0
     },
-    "probability": 0.3,
+    "probability": 0.2,
     "replaceable": "#minecraft:overworld_carver_replaceables",
     "vertical_radius_multiplier": {
       "type": "minecraft:uniform",
