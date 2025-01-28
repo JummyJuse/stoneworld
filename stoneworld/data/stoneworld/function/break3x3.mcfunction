@@ -36,5 +36,4 @@ execute as @e[type=armor_stand,tag=center] at @s if block ~1 ~1 ~-1 #allow_break
 execute as @e[type=armor_stand,tag=center] at @s if block ~1 ~1 ~ #allow_break run setblock ~1 ~1 ~ air destroy
 execute as @e[type=armor_stand,tag=center] at @s if block ~1 ~1 ~1 #allow_break run setblock ~1 ~1 ~1 air destroy
 
-
 kill @e[type=armor_stand,tag=center]
