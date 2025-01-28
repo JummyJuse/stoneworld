@@ -1,0 +1,1 @@
+$scoreboard players set @n[tag=$(tagg)] timer 1

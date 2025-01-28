@@ -1,3 +1,4 @@
+say yesy
 effect give @a resistance 10 255 true
 execute if block ~ -40 ~ air run tp @a ~ -40 ~
 execute if block ~ -40 ~ air run spawnpoint @a ~ -40 ~
