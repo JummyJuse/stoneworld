@@ -1,0 +1,33 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_pickaxe",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "tag": {},
+                "components": {
+                  "minecraft:max_damage": 20,
+                  "minecraft:custom_name": "{\"text\":\"3x3 Pickaxe\",\"italic\":false,\"color\":\"aqua\"}",
+                  "minecraft:lore": [
+                    "{\"text\":\"+ mines 3x3\",\"italic\":false,\"color\":\"dark_green\"}",
+                    "{\"text\":\"- breaks quickly\",\"italic\":false,\"color\":\"dark_red\"}"
+                  ],
+                  "minecraft:rarity": "epic",
+                  "minecraft:enchantment_glint_override": true
+                }
+              },
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": "{dp:1}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
