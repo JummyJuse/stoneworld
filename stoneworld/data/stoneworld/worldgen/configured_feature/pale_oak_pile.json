@@ -2,7 +2,7 @@
   "type": "minecraft:forest_rock",
   "config": {
     "state": {
-      "Name": "minecraft:oak_leaves"
+      "Name": "minecraft:pale_oak_leaves"
     }
   }
 }

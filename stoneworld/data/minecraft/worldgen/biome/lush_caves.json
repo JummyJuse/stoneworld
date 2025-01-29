@@ -3,7 +3,8 @@
       "stoneworld:jungle_roots",
       "stoneworld:cave",
       "minecraft:cave_extra_underground",
-      "minecraft:canyon"
+      "minecraft:canyon",
+      "stoneworld:cave_bubbly"
     ],
     "downfall": 0.5,
     "effects": {
@@ -91,7 +92,8 @@
         "minecraft:lush_caves_vegetation",
         "minecraft:rooted_azalea_tree",
         "minecraft:spore_blossom",
-        "minecraft:classic_vines_cave_feature"
+        "minecraft:classic_vines_cave_feature",
+        "stoneworld:jungle_leave_vegetation"
       ],
       [
         "minecraft:freeze_top_layer"
@@ -102,10 +104,10 @@
     "spawners": {
       "ambient": [
         {
-          "type": "minecraft:bat",
+          "type": "minecraft:sheep",
           "maxCount": 8,
           "minCount": 8,
-          "weight": 10
+          "weight": 12
         }
       ],
       "axolotls": [
@@ -120,54 +122,18 @@
       "misc": [],
       "monster": [
         {
-          "type": "minecraft:spider",
-          "maxCount": 4,
-          "minCount": 4,
-          "weight": 100
-        },
-        {
-          "type": "minecraft:zombie",
-          "maxCount": 4,
-          "minCount": 4,
-          "weight": 95
-        },
-        {
-          "type": "minecraft:zombie_villager",
-          "maxCount": 1,
-          "minCount": 1,
-          "weight": 5
-        },
-        {
-          "type": "minecraft:skeleton",
-          "maxCount": 4,
-          "minCount": 4,
-          "weight": 100
-        },
-        {
-          "type": "minecraft:creeper",
-          "maxCount": 4,
-          "minCount": 4,
-          "weight": 100
-        },
-        {
-          "type": "minecraft:slime",
-          "maxCount": 4,
-          "minCount": 4,
-          "weight": 100
-        },
-        {
-          "type": "minecraft:enderman",
-          "maxCount": 4,
-          "minCount": 1,
-          "weight": 10
-        },
-        {
-          "type": "minecraft:witch",
-          "maxCount": 1,
-          "minCount": 1,
-          "weight": 5
-        }
-      ],
+        "type": "minecraft:pig",
+        "maxCount": 8,
+        "minCount": 8,
+        "weight": 13
+      },
+      {
+        "type": "minecraft:cow",
+        "maxCount": 8,
+        "minCount": 8,
+        "weight": 13
+      }
+    ],
       "underground_water_creature": [
         {
           "type": "minecraft:glow_squid",

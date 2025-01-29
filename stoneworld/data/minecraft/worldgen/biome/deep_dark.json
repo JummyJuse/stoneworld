@@ -1,9 +1,9 @@
 {
     "carvers": [
-      "stoneworld:pale_oak_roots",
       "stoneworld:cave",
       "minecraft:cave_extra_underground",
-      "minecraft:canyon"
+      "minecraft:canyon",
+      "stoneworld:pale_oak_roots"
     ],
     "downfall": 0.4,
     "effects": {

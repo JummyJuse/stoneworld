@@ -1,5 +1,5 @@
 {
-  "feature": "stoneworld:oak_leave_pile",
+  "feature": "stoneworld:pale_oak_pile",
   "placement": [
     {
       "type": "minecraft:count_on_every_layer",
@@ -11,7 +11,7 @@
       "max_steps": 1,
       "target_condition": {
         "type": "minecraft:matching_blocks",
-        "blocks": "minecraft:oak_wood"
+        "blocks": "minecraft:pale_oak_wood"
       }
     },
     {

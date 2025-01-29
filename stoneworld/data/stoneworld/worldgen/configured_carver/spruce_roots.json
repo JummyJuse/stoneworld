@@ -29,7 +29,7 @@
     "lava_level": {
       "above_bottom": 0
     },
-    "probability": 0.2,
+    "probability": 0.29,
     "replaceable": "#minecraft:overworld_carver_replaceables",
     "vertical_radius_multiplier": {
       "type": "minecraft:uniform",

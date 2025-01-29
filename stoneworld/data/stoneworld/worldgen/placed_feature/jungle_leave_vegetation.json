@@ -1,9 +1,9 @@
 {
-  "feature": "stoneworld:oak_leave_pile",
+  "feature": "stoneworld:jungle_leave_pile",
   "placement": [
     {
       "type": "minecraft:count_on_every_layer",
-      "count": 140
+      "count": 100
     },
     {
       "type": "minecraft:environment_scan",
@@ -11,7 +11,7 @@
       "max_steps": 1,
       "target_condition": {
         "type": "minecraft:matching_blocks",
-        "blocks": "minecraft:oak_wood"
+        "blocks": "minecraft:jungle_wood"
       }
     },
     {
