@@ -4,7 +4,10 @@ $execute at @e[tag=$(tagg),scores={timer=40..}] if block ~ ~ ~ air run data modi
 $execute at @e[tag=$(tagg),scores={timer=40..}] if block ~ ~ ~ air run data modify storage stoneworld:placing loott set from entity @n[type=marker] data.l
 $execute at @e[tag=$(tagg),scores={timer=40..}] if block ~ ~ ~ air run data modify storage stoneworld:placing gentag set from entity @n[type=marker] data.g
 $execute at @e[tag=$(tagg),scores={timer=40..,gen_fuel=1..}] if block ~ ~ ~ air run function stoneworld:place_overworld with storage stoneworld:placing
-$execute as @e[tag=$(tagg)] positioned as @s if entity @n[type=item,nbt={Item:{id:"minecraft:coal"}},distance=..1.1] run scoreboard players add @n[tag=$(tagg)] gen_fuel 1
+
+$execute as @e[tag=$(tagg)] positioned as @s run execute as @n[type=item,nbt={Item:{id:"minecraft:coal"}},distance=..1.1] store result storage stoneworld:fuel count int 1 run data get entity @s Item.count
+$data modify storage stoneworld:fuel tagg set value $(tagg)
+function stoneworld:add_fuel with storage stoneworld:fuel
 
 $execute as @e[tag=$(tagg),scores={shown=1}] positioned as @s if entity @n[type=item,nbt={Item:{id:"minecraft:coal"}},distance=..1.1] run kill @n[type=minecraft:text_display]
 $execute as @e[tag=$(tagg),scores={shown=1}] positioned as @s if entity @n[type=item,nbt={Item:{id:"minecraft:coal"}},distance=..1.1] run scoreboard players set @s shown 0

@@ -1,0 +1,1 @@
+$execute as @e[tag=$(tagg)] positioned as @s if entity @n[type=item,nbt={Item:{id:"minecraft:coal"}},distance=..1.1] run scoreboard players add @n[tag=$(tagg)] gen_fuel $(count)
