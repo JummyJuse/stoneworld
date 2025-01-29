@@ -11,7 +11,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond",
+          "name": "minecraft:diamond_block",
           "weight": 1
         },
         {
