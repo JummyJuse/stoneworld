@@ -1,0 +1,58 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " d ",
+    "isi",
+    "iri"
+  ],
+  "key": {
+    "d": [
+      "minecraft:pointed_dripstone"
+    ],
+    "s": "minecraft:lightning_rod",
+    "i": [
+      "minecraft:copper_block"
+    ],
+    "r": [
+      "minecraft:redstone"
+    ]
+  },
+  "result": {
+    "id": "minecraft:armadillo_scute",
+    "components": {
+      "minecraft:custom_name": "{\"text\":\"Copper Drill\",\"italic\":false,\"color\":\"gold\"}",
+      "minecraft:lore": [
+        "{\"text\":\"+ mines 3x3x1\",\"italic\":false,\"color\":\"dark_green\"}",
+        "{\"text\":\"- cant break deepslate and ores besides coal\",\"italic\":false,\"color\":\"dark_red\"}"
+      ],
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "type": "minecraft:block_interaction_range",
+            "id": "minecraft:modify",
+            "amount": -3,
+            "operation": "add_value",
+            "slot": "hand"
+          }
+        ]
+      },
+      "minecraft:tool": {
+        "rules": [
+          {
+            "blocks": "#allow_break_bad",
+            "speed": 3.5,
+            "correct_for_drops": true
+          }
+        ],
+        "default_mining_speed": 1,
+        "damage_per_block": 1
+      },
+      "minecraft:damage": 0,
+      "minecraft:max_damage": 65,
+      "minecraft:max_stack_size": 1,
+      "minecraft:custom_data": "{sp:1}"
+    }
+  }
+}
