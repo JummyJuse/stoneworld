@@ -11,19 +11,35 @@
     {
       "type": "minecraft:height_range",
       "height": {
-        "type": "minecraft:uniform",
-        "max_inclusive": {
-          "absolute": 15
-        },
-        "min_inclusive": {
-          "above_bottom": 0
-        }
-      },
-      "min_inclusive": {
-        "above_bottom": 0
-      },
-      "max_inclusive": {
-        "absolute": 320
+        "type": "minecraft:weighted_list",
+        "distribution": [
+          {
+            "weight": 1,
+            "data": {
+              "type": "minecraft:trapezoid",
+              "min_inclusive": {
+                "absolute": -64
+              },
+              "max_inclusive": {
+                "absolute": 64
+              },
+              "plateau": -50
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "type": "minecraft:trapezoid",
+              "min_inclusive": {
+                "absolute": 264
+              },
+              "max_inclusive": {
+                "absolute": 319
+              },
+              "plateau": 305
+            }
+          }
+        ]
       }
     },
     {

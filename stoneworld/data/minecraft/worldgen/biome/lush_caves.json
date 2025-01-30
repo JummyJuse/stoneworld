@@ -76,7 +76,8 @@
         "minecraft:ore_clay",
         "minecraft:disk_sand",
         "minecraft:disk_clay",
-        "minecraft:disk_gravel"
+        "minecraft:disk_gravel",
+        "stoneworld:lush_cave_stone_varience"
       ],
       [],
       [
@@ -105,8 +106,8 @@
       "ambient": [
         {
           "type": "minecraft:sheep",
-          "maxCount": 8,
-          "minCount": 8,
+          "maxCount": 4,
+          "minCount": 4,
           "weight": 12
         }
       ],
@@ -123,14 +124,14 @@
       "monster": [
         {
         "type": "minecraft:pig",
-        "maxCount": 8,
-        "minCount": 8,
+        "maxCount": 4,
+        "minCount": 4,
         "weight": 13
       },
       {
         "type": "minecraft:cow",
-        "maxCount": 8,
-        "minCount": 8,
+        "maxCount": 4,
+        "minCount": 4,
         "weight": 13
       }
     ],

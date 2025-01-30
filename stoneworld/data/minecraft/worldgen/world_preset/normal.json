@@ -12,58 +12,58 @@
               "biome": "stoneworld:sand_caves",
               "parameters": {
                 "temperature": [
-                  0.8,
-                  1
-                ],
-                "humidity": [
-                  -0.9,
-                  0.1
-                ],
-                "continentalness": [
-                  -1,
-                  1
-                ],
-                "erosion": [
-                  0,
-                  1
-                ],
-                "weirdness": [
-                  -0.5,
+                  0.15,
                   0.5
                 ],
+                "weirdness": [
+                  0.0,
+                  0.8
+                ],
+                "continentalness": [
+                  -2,
+                  2
+                ],
+                "erosion": [
+                  -2,
+                  2
+                ],
+                "humidity": [
+                  -2,
+                  2
+                ],
                 "depth": [
-                  -1,
-                  1
+                  -2,
+                  2
                 ],
                 "offset": 0
               }
             },
             {
-              "biome": "minecraft:dripstone_caves",
+              "biome": "stoneworld:basalt_caves",
               "parameters": {
                 "temperature": [
-                  -1,
-                  1
-                ],
-                "humidity": [
-                  -1,
-                  1
-                ],
-                "continentalness": [
-                  -1,
-                  1
-                ],
-                "erosion": [
-                  -1,
-                  1
-                ],
-                "depth": [
-                  0.4,
-                  0.6
+                  0.15,
+                  0.5
                 ],
                 "weirdness": [
-                  -0.3,
-                  0.3
+                  -2,
+                  0
+                ],
+                "continentalness": [
+                  -2,
+                  2
+                ],
+                "erosion": [
+                  -2,
+                  2
+                ],
+                "depth": [
+                  -2,
+                  2
+                ],
+                "humidity": [
+                  -2,
+                  2
                 ],
                 "offset": 0
               }
@@ -72,57 +72,58 @@
               "biome": "minecraft:lush_caves",
               "parameters": {
                 "temperature": [
-                  -1,
-                  1
-                ],
-                "humidity": [
-                  0.5,
-                  1
-                ],
-                "continentalness": [
-                  -0.5,
-                  0.5
-                ],
-                "erosion": [
-                  -1,
-                  1
-                ],
-                "depth": [
-                  0.2,
-                  0.9
+                  -0.125,
+                  0.125
                 ],
                 "weirdness": [
-                  -0.4,
-                  0.4
+                  -2,
+                  -0.05
+                ],
+                "continentalness": [
+                  -2,
+                  2
+                ],
+                "erosion": [
+                  -2,
+                  2
+                ],
+                "depth": [
+                  -2,
+                  2
+                ],
+                "humidity": [
+                  -2,
+                  2
                 ],
                 "offset": 0
               }
-            },{
+            },
+            {
               "biome": "stoneworld:pale_caves",
               "parameters": {
                 "temperature": [
-                  -1,
-                  -0.3
-                ],
-                "humidity": [
-                  -1,
-                  1
-                ],
-                "continentalness": [
-                  -0.5,
-                  0.5
-                ],
-                "erosion": [
-                  -1,
-                  -0.4
-                ],
-                "depth": [
-                  0.2,
-                  0.4
+                  -0.125,
+                  0.125
                 ],
                 "weirdness": [
-                  -0.5,
-                  0.5
+                  -0.05,
+                  0
+                ],
+                "continentalness": [
+                  -2,
+                  2
+                ],
+                "erosion": [
+                  -2,
+                  2
+                ],
+                "depth": [
+                  -2,
+                  2
+                ],
+                "humidity": [
+                  -2,
+                  2
                 ],
                 "offset": 0
               }
@@ -130,88 +131,61 @@
             {
               "biome": "minecraft:deep_dark",
               "parameters": {
-                "continentalness": [
-                  -1,
-                  1
-                ],
-                "depth": 1.1,
-                "erosion": [
-                  -1,
-                  -0.375
-                ],
-                "humidity": [
-                  -1,
-                  1
-                ],
-                "offset": 0,
                 "temperature": [
-                  -1,
-                  1
+                  -0.125,
+                  0.125
                 ],
                 "weirdness": [
-                  -1,
-                  1
-                ]
-              }
-            },
-            {
-              "biome": "stoneworld:basalt_caves",
-              "parameters": {
-                "temperature": [
-                  0.5,
-                  0.8
-                ],
-                "humidity": [
-                  0.3,
-                  0.7
+                  0,
+                  0.05
                 ],
                 "continentalness": [
-                  -0.2,
-                  0.2
+                  -2,
+                  2
                 ],
                 "erosion": [
-                  -0.5,
-                  0.5
+                  -2,
+                  2
                 ],
                 "depth": [
-                  0.1,
-                  0.3
+                  -2,
+                  2
                 ],
-                "weirdness": [
-                  -0.2,
-                  0.2
+                "humidity": [
+                  -2,
+                  2
                 ],
                 "offset": 0
               }
             },
             {
-              "biome": "stoneworld:basalt_caves",
+              "biome": "minecraft:dripstone_caves",
               "parameters": {
-                "continentalness": [
-                  -1,
-                  1
-                ],
-                "depth": [
-                  0.8,
-                  1
-                ],
-                "erosion": [
-                  0.4,
-                  0.6
-                ],
-                "humidity": [
-                  0,
-                  0.5
-                ],
-                "offset": 0,
                 "temperature": [
-                  0.5,
-                  1
+                  -0.125,
+                  0.125
                 ],
                 "weirdness": [
-                  -1,
-                  1
-                ]
+                  0.05,
+                  0.8
+                ],
+                "continentalness": [
+                  -2,
+                  2
+                ],
+                "erosion": [
+                  -2,
+                  2
+                ],
+                "depth": [
+                  -2,
+                  2
+                ],
+                "humidity": [
+                  -2,
+                  2
+                ],
+                "offset": 0
               }
             }
           ]

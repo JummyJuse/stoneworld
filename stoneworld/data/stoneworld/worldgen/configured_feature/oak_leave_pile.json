@@ -1,8 +1,18 @@
 {
-  "type": "minecraft:forest_rock",
+  "type": "minecraft:ore",
   "config": {
-    "state": {
-      "Name": "minecraft:oak_leaves"
-    }
+    "size": 4,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "state": {
+          "Name": "minecraft:oak_leaves"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:air"
+        }
+      }
+    ]
   }
 }

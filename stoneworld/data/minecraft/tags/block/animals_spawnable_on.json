@@ -2,6 +2,7 @@
     "values": [
       "minecraft:grass_block",
       "minecraft:moss_block",
-      "minecraft:moss_carpet"
+      "minecraft:moss_carpet",
+      "#minecraft:overworld_carver_replaceables"
     ]
   }

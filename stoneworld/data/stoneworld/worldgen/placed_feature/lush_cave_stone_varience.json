@@ -1,9 +1,9 @@
 {
-  "feature": "minecraft:ore_copper_large",
+  "feature": "stoneworld:stony_varience",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 16
+      "count": 200
     },
     {
       "type": "minecraft:in_square"
@@ -11,12 +11,12 @@
     {
       "type": "minecraft:height_range",
       "height": {
-        "type": "minecraft:trapezoid",
+        "type": "minecraft:uniform",
         "max_inclusive": {
-          "absolute": 212
+          "absolute": 319
         },
         "min_inclusive": {
-          "absolute": -16
+          "above_bottom": -64
         }
       }
     },

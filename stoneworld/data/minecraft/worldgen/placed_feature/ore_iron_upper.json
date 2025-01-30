@@ -18,12 +18,6 @@
         "min_inclusive": {
           "absolute": 80
         }
-      },
-      "min_inclusive": {
-        "absolute": 80
-      },
-      "max_inclusive": {
-        "absolute": 164
       }
     },
     {

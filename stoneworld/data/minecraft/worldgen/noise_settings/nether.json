@@ -24,7 +24,7 @@
     "lava": 0,
     "temperature": {
       "type": "minecraft:shifted_noise",
-      "noise": "minecraft:temperature",
+      "noise": "minecraft:temperature_large",
       "xz_scale": 0.25,
       "y_scale": 0,
       "shift_x": "minecraft:shift_x",
