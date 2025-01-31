@@ -28,6 +28,6 @@ execute as @a[scores={3xd=1..}] if items entity @s weapon.mainhand *[minecraft:c
 execute as @a[scores={3xd=1..}] run scoreboard players set @s 3xd 0
 
 execute as @e[tag=cannon] positioned as @s rotated as @s if entity @p[distance=..2,tag=!shot] run function stoneworld:cannonshoot
-execute as @a[tag=shot,predicate=stoneworld:onground] run effect give @s jump_boost infinite 255 true
-execute as @a[tag=shot,predicate=stoneworld:onground] positioned as @s rotated as @s if entity @e[distance=3..,tag=cannon] run tag @s remove shot
-execute as @a[tag=!shot,predicate=stoneworld:onground] run effect clear @s minecraft:jump_boost
+execute as @a[tag=shot,predicate=!stoneworld:onground] run effect give @s jump_boost infinite 255 true
+execute as @a[tag=shot,predicate=stoneworld:onground] run effect clear @s minecraft:jump_boost
+execute as @a[tag=shot,predicate=stoneworld:onground] positioned as @s if entity @e[tag=cannon,distance=3..] run tag @s remove shot
