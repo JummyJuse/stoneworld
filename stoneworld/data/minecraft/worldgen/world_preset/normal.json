@@ -42,7 +42,7 @@
               "biome": "stoneworld:basalt_caves",
               "parameters": {
                 "temperature": [
-                  0.15,
+                  0.35,
                   0.5
                 ],
                 "weirdness": [
@@ -78,6 +78,36 @@
                 "weirdness": [
                   -2,
                   -0.05
+                ],
+                "continentalness": [
+                  -2,
+                  2
+                ],
+                "erosion": [
+                  -2,
+                  2
+                ],
+                "depth": [
+                  -2,
+                  2
+                ],
+                "humidity": [
+                  -2,
+                  2
+                ],
+                "offset": 0
+              }
+            },
+            {
+              "biome": "stoneworld:mushroom_cavern",
+              "parameters": {
+                "temperature": [
+                  -0.125,
+                  0.125
+                ],
+                "weirdness": [
+                  -0.05,
+                  0.5
                 ],
                 "continentalness": [
                   -2,
