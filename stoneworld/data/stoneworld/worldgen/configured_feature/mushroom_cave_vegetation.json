@@ -1,0 +1,46 @@
+{
+    "type": "minecraft:simple_block",
+    "config": {
+      "to_place": {
+        "type": "minecraft:weighted_state_provider",
+        "entries": [
+          {
+            "weight": 12,
+            "data": {
+              "Name": "minecraft:red_mushroom"
+            }
+          },
+          {
+            "weight": 14,
+            "data": {
+              "Name": "minecraft:brown_mushroom"
+            }
+          },
+          {
+            "data": {
+              "Name": "minecraft:warped_roots"
+            },
+            "weight": 2
+          },
+          {
+            "data": {
+              "Name": "minecraft:crimson_roots"
+            },
+            "weight": 2
+          },
+          {
+            "data": {
+              "Name": "minecraft:warped_fungus"
+            },
+            "weight": 6
+          },
+          {
+            "data": {
+              "Name": "minecraft:crimson_fungus"
+            },
+            "weight": 1
+          }
+        ]
+    }
+  }
+}
