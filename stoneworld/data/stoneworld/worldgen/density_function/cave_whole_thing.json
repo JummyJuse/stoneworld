@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:squeeze",
+    "argument": {
+      "type": "minecraft:add",
+      "argument1": {
+        "type": "minecraft:add",
+        "argument1": "stoneworld:cave_cutoff",
+        "argument2": "stoneworld:big_balls"
+      },
+      "argument2": {
+        "type": "minecraft:add",
+        "argument1": {
+          "type": "minecraft:min",
+          "argument1": "minecraft:overworld/caves/noodle",
+          "argument2": 0.1
+        },
+        "argument2": -0.1
+      }
+    }
+  }

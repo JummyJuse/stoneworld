@@ -1,7 +1,6 @@
 {
     "carvers": [
-        "stoneworld:cave_bubbly", 
-        "stoneworld:cavern"
+        "minecraft:cave_extra_underground"
     ],
     "downfall": 0,
     "effects": {
@@ -81,11 +80,12 @@
       [],
       [
         "minecraft:spring_lava",
+        "stoneworld:twisting_roots",
         "minecraft:nether_sprouts",
         "stoneworld:mycelium_floor",
         "stoneworld:glowing_mushroom",
-        "stoneworld:underground_brown_mushroom",
-        "stoneworld:twisting_roots"
+        "stoneworld:underground_brown_mushroom"
+
       ]
     ],
     "has_precipitation": false,

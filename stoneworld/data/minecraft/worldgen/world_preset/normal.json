@@ -12,8 +12,38 @@
               "biome": "stoneworld:sand_caves",
               "parameters": {
                 "temperature": [
-                  0.15,
+                  0.2,
                   0.5
+                ],
+                "weirdness": [
+                  0.0,
+                  0.8
+                ],
+                "continentalness": [
+                  -2,
+                  2
+                ],
+                "erosion": [
+                  -2,
+                  2
+                ],
+                "humidity": [
+                  -2,
+                  2
+                ],
+                "depth": [
+                  -2,
+                  2
+                ],
+                "offset": 0
+              }
+            },
+            {
+              "biome": "stoneworld:frozen_caves",
+              "parameters": {
+                "temperature": [
+                  -2,
+                  -0.335
                 ],
                 "weirdness": [
                   0.0,
@@ -48,6 +78,66 @@
                 "weirdness": [
                   -2,
                   0
+                ],
+                "continentalness": [
+                  -2,
+                  2
+                ],
+                "erosion": [
+                  -2,
+                  2
+                ],
+                "depth": [
+                  -2,
+                  2
+                ],
+                "humidity": [
+                  -2,
+                  2
+                ],
+                "offset": 0
+              }
+            },
+            {
+              "biome": "stoneworld:pale_caves",
+              "parameters": {
+                "temperature": [
+                  0.125,
+                  0.35
+                ],
+                "weirdness": [
+                  -2,
+                  -0.05
+                ],
+                "continentalness": [
+                  -2,
+                  2
+                ],
+                "erosion": [
+                  -2,
+                  2
+                ],
+                "depth": [
+                  -2,
+                  2
+                ],
+                "humidity": [
+                  -2,
+                  2
+                ],
+                "offset": 0
+              }
+            },
+            {
+              "biome": "stoneworld:pale_caves",
+              "parameters": {
+                "temperature": [
+                  -0.35,
+                  -0.125
+                ],
+                "weirdness": [
+                  -2,
+                  -0.05
                 ],
                 "continentalness": [
                   -2,

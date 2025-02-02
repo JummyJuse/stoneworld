@@ -1,7 +1,5 @@
 {
     "carvers": [
-      "minecraft:cave",
-      "stoneworld:cave_bubbly",
       "minecraft:canyon",
       "minecraft:cave_extra_underground",
       "stoneworld:pale_oak_roots"

@@ -78,7 +78,8 @@
       "stoneworld:ore_sandstone",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
-      "minecraft:disk_gravel"
+      "minecraft:disk_gravel",
+      "stoneworld:oak_leave_vegetation"
     ],
     [],
     [
@@ -91,8 +92,8 @@
       "minecraft:pointed_dripstone",
       "minecraft:dripstone_cluster",
       "minecraft:cave_vines",
-      "stoneworld:sand_cave_vegetation",
-      "stoneworld:oak_leave_vegetation"
+      "stoneworld:sand_cave_vegetation"
+
     ],
     [
       "minecraft:freeze_top_layer"

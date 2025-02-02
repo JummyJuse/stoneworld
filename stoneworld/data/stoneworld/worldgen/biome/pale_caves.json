@@ -67,7 +67,9 @@
       "minecraft:ore_clay",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
-      "minecraft:disk_gravel"
+      "minecraft:disk_gravel",
+      "stoneworld:oak_leave_vegetation",
+      "stoneworld:pale_oak_leave_vegetation"
     ],
     [],
     [
@@ -80,8 +82,7 @@
       "stoneworld:pale_roof_vegetation",
       "minecraft:cave_vines",
       "stoneworld:pale_cave_vegetation",
-      "minecraft:classic_vines_cave_feature",
-      "stoneworld:pale_oak_leave_vegetation"
+      "minecraft:classic_vines_cave_feature"
     ],
     [
       "minecraft:freeze_top_layer"
