@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "building",
+    "group": "planks",
+    "ingredients": [
+        "minecraft:mushroom_stem"
+    ],
+    "result": {
+      "count": 4,
+      "id": "minecraft:pale_oak_planks"
+    }
+  }
