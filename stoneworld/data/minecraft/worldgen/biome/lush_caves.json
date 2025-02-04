@@ -103,24 +103,22 @@
     "spawn_costs": {},
     "spawners": {
       "ambient": [
+      ],
+      "axolotls": [
+        {
+          "type": "minecraft:axolotl",
+          "maxCount": 2,
+          "minCount": 2,
+          "weight": 10
+        }
+      ],
+      "creature": [
         {
           "type": "minecraft:sheep",
           "maxCount": 4,
           "minCount": 4,
           "weight": 12
-        }
-      ],
-      "axolotls": [
-        {
-          "type": "minecraft:axolotl",
-          "maxCount": 6,
-          "minCount": 4,
-          "weight": 10
-        }
-      ],
-      "creature": [],
-      "misc": [],
-      "monster": [
+        },
         {
         "type": "minecraft:pig",
         "maxCount": 4,
@@ -129,6 +127,38 @@
       },
       {
         "type": "minecraft:cow",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 13
+      },
+      {
+        "type": "minecraft:chicken",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 13
+      }
+    ],
+      "misc": [],
+      "monster": [
+        "type": "minecraft:sheep",
+          "maxCount": 4,
+          "minCount": 4,
+          "weight": 12
+        },
+        {
+        "type": "minecraft:pig",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 13
+      },
+      {
+        "type": "minecraft:cow",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 13
+      },
+      {
+        "type": "minecraft:chicken",
         "maxCount": 4,
         "minCount": 4,
         "weight": 13
