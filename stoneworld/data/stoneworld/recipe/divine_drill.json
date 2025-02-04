@@ -45,7 +45,7 @@
         "rules": [
           {
             "blocks": "#mineable/pickaxe",
-            "speed": 3.5,
+            "speed": 5.5,
             "correct_for_drops": true
           }
         ],
@@ -53,7 +53,7 @@
         "damage_per_block": 1
       },
       "minecraft:damage": 0,
-      "minecraft:max_damage": 70,
+      "minecraft:max_damage": 175,
       "minecraft:max_stack_size": 1,
       "minecraft:custom_data": "{ddp:1}"
     }
