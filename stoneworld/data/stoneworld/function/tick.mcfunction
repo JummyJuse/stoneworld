@@ -32,3 +32,10 @@ execute as @a[tag=shot,predicate=!stoneworld:onground] run tag @s add leftground
 execute as @a[tag=leftground,predicate=stoneworld:onground] run attribute @s minecraft:fall_damage_multiplier base reset
 execute as @a[tag=leftground,predicate=stoneworld:onground] positioned as @s if entity @n[tag=cannon,distance=3..] run tag @s remove shot
 execute as @a[tag=leftground,predicate=stoneworld:onground] positioned as @s if entity @n[tag=cannon,distance=3..] run tag @s remove leftground
+
+#one hour is 72,000
+execute as @e[tag=lootbox,scores={loottimer=72000..}] positioned as @s run data modify block ~ ~ ~ LootTable set value "stoneworld:lootbox"
+execute as @e[tag=lootbox,scores={loottimer=72000..}] positioned as @s run playsound minecraft:block.creaking_heart.fall block @a ~ ~ ~ 1 1
+execute as @e[tag=lootbox,scores={loottimer=72000..}] positioned as @s run particle minecraft:crit ~ ~1 ~ 0.1 0.1 0.1 1 10
+execute as @e[tag=lootbox,scores={loottimer=72000..}] run scoreboard players set @s loottimer 0
+execute as @e[tag=lootbox,scores={loottimer=..72000}] run scoreboard players add @s loottimer 1
