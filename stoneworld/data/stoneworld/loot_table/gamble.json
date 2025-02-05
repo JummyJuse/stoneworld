@@ -110,61 +110,6 @@
           "functions": [
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{a:{item:{id:\"minecraft:ward_armor_trim_smithing_template\", Count: 1b}}}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:suspicious_sand",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": "{a:{item:{id:\"minecraft:eye_armor_trim_smithing_template\", Count: 1b}}}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:suspicious_sand",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": "{a:{item:{id:\"minecraft:rib_armor_trim_smithing_template\", Count: 1b}}}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:suspicious_sand",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": "{a:{item:{id:\"minecraft:sentry_armor_trim_smithing_template\", Count: 1b}}}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:suspicious_sand",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": "{a:{item:{id:\"minecraft:spire_armor_trim_smithing_template\", Count: 1b}}}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:suspicious_sand",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_custom_data",
               "tag": "{a:{item:{id:\"minecraft:tide_armor_trim_smithing_template\", Count: 1b}}}"
             }
           ]
@@ -177,17 +122,6 @@
             {
               "function": "minecraft:set_custom_data",
               "tag": "{a:{item:{id:\"minecraft:vex_armor_trim_smithing_template\", Count: 1b}}}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:suspicious_sand",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": "{a:{item:{id:\"minecraft:snout_armor_trim_smithing_template\", Count: 1b}}}"
             }
           ]
         }
