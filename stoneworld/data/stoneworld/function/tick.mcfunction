@@ -30,8 +30,8 @@ execute as @a[scores={drill=1..}] run scoreboard players set @s drill 0
 execute as @a[scores={drill=1..}] if items entity @s weapon.mainhand *[minecraft:custom_data~{sp:1}] positioned as @s rotated as @s run function stoneworld:break2x2
 execute as @a[scores={drill=1..}] run scoreboard players set @s drill 0
 
-execute as @a[scores={drill=1..}] if items entity @s weapon.mainhand *[minecraft:custom_data~{ddp:1}] positioned as @s rotated as @s run function stoneworld:break3x3d
-execute as @a[scores={drill=1..}] run scoreboard players set @s drill 0
+execute as @a[scores={divine=1..}] if items entity @s weapon.mainhand *[minecraft:custom_data~{ddp:1}] positioned as @s rotated as @s run function stoneworld:break3x3d
+execute as @a[scores={divine=1..}] run scoreboard players set @s divine 0
 
 execute as @e[tag=cannon] positioned as @s rotated as @s if entity @p[distance=..2,tag=!shot] run function stoneworld:cannonshoot
 execute as @a[tag=shot,predicate=!stoneworld:onground] run tag @s add leftground

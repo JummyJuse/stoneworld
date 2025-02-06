@@ -22,7 +22,7 @@
     ]
   },
   "result": {
-    "id": "minecraft:golden_pickaxe",
+    "id": "minecraft:diamond_pickaxe",
     "components": {
       "minecraft:custom_name": "{\"text\":\"Divine Drill\",\"italic\":false,\"color\":\"light_purple\"}",
       "minecraft:lore": [
