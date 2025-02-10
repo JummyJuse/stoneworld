@@ -106,6 +106,10 @@
           {
             "type": "minecraft:item",
             "name": "minecraft:cooked_porkchop"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:kelp"
           }
         ]
       }
