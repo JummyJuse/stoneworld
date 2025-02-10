@@ -1,0 +1,136 @@
+{
+    "replace": false,
+    "values": [
+      {
+        "id": "minecraft:chicken",
+        "despawn_rules": {
+          "persistent": false,
+          "distance": 64
+        },
+        "spawn_limit": 5
+
+      },
+      {
+        "id": "minecraft:cow",
+        "despawn_rules": {
+          "persistent": false,
+          "distance": 64
+        },
+        "spawn_limit": 5
+      },
+      {
+        "id": "minecraft:sheep",
+        "despawn_rules": {
+          "persistent": false,
+          "distance": 64
+        },
+        "spawn_limit": 5
+
+      },
+      {
+        "id": "minecraft:pig",
+        "despawn_rules": {
+          "persistent": false,
+          "distance": 64
+        },
+        "spawn_limit": 5
+      },
+      {
+        "id": "minecraft:bat",
+        "despawn_rules": {
+          "persistent": false,
+          "distance": 64
+        },
+        "spawn_limit": 5
+      },
+      {
+        "id": "minecraft:axolotl",
+        "despawn_rules": {
+          "persistent": false,
+          "distance": 64
+        },
+        "spawn_limit": 5
+      },
+      {
+        "id": "minecraft:spider",
+        "despawn_rules": {
+          "persistent": false,
+          "distance": 64
+        },
+        "spawn_limit": 5
+      },
+      {
+        "id": "minecraft:zombie",
+        "despawn_rules": {
+          "persistent": false,
+          "distance": 64
+        },
+        "spawn_limit": 5
+      },
+      {
+        "id": "minecraft:zombie_villager",
+        "despawn_rules": {
+          "persistent": false,
+          "distance": 64
+        },
+        "spawn_limit": 5
+      },
+      {
+        "id": "minecraft:skeleton",
+        "despawn_rules": {
+          "persistent": false,
+          "distance": 64
+        },
+        "spawn_limit": 5
+      },
+      {
+        "id": "minecraft:creeper",
+        "despawn_rules": {
+          "persistent": false,
+          "distance": 64
+        },
+        "spawn_limit": 5
+      },
+      {
+        "id": "minecraft:slime",
+        "despawn_rules": {
+          "persistent": false,
+          "distance": 64
+        },
+        "spawn_limit": 5
+      },
+      {
+        "id": "minecraft:enderman",
+        "despawn_rules": {
+          "persistent": false,
+          "distance": 64
+        },
+        "spawn_limit": 5
+      },
+      {
+        "id": "minecraft:witch",
+        "despawn_rules": {
+          "persistent": false,
+          "distance": 64
+        },
+        "spawn_limit": 5
+      },
+      {
+        "id": "minecraft:polar_bear",
+        "despawn_rules": {
+          "persistent": false,
+          "distance": 64
+        },
+        "spawn_limit": 1
+      },
+        {
+            "id": "minecraft:mooshroom",
+            "despawn_rules": {
+            "persistent": false,
+            "distance": 64
+            },
+            "spawn_limit": 5
+        }
+    ]
+  }
+  

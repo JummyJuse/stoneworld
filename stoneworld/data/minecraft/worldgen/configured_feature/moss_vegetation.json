@@ -72,6 +72,12 @@
             "data": {
               "Name": "minecraft:sweet_berry_bush"
             }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "Name": "minecraft:oxeye_daisy"
+            }
           }
         ]
       }

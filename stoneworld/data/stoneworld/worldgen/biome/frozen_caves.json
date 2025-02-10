@@ -113,24 +113,12 @@
           "type": "minecraft:polar_bear",
           "maxCount": 2,
           "minCount": 1,
-          "weight": 10
+          "weight": 1
         }
       ],
       "creature": [],
       "misc": [],
       "monster": [
-        {
-          "type": "minecraft:spider",
-          "maxCount": 4,
-          "minCount": 4,
-          "weight": 100
-        },
-        {
-          "type": "minecraft:zombie",
-          "maxCount": 4,
-          "minCount": 4,
-          "weight": 95
-        },
         {
           "type": "minecraft:zombie_villager",
           "maxCount": 1,
@@ -138,28 +126,28 @@
           "weight": 5
         },
         {
-          "type": "minecraft:skeleton",
+          "type": "minecraft:stray",
           "maxCount": 4,
           "minCount": 4,
-          "weight": 100
+          "weight": 10
         },
         {
           "type": "minecraft:creeper",
           "maxCount": 4,
           "minCount": 4,
-          "weight": 100
+          "weight": 10
         },
         {
           "type": "minecraft:slime",
           "maxCount": 4,
           "minCount": 4,
-          "weight": 100
+          "weight": 10
         },
         {
           "type": "minecraft:enderman",
           "maxCount": 4,
           "minCount": 1,
-          "weight": 10
+          "weight": 1
         },
         {
           "type": "minecraft:witch",
