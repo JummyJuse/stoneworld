@@ -33,6 +33,13 @@ execute as @a[scores={drill=1..}] run scoreboard players set @s drill 0
 execute as @a[scores={divine=1..}] if items entity @s weapon.mainhand *[minecraft:custom_data~{ddp:1}] positioned as @s rotated as @s run function stoneworld:break3x3d
 execute as @a[scores={divine=1..}] run scoreboard players set @s divine 0
 
+#cannon
+execute as @e[tag=cannon] positioned as @s rotated as @s if entity @p[distance=..2,tag=!shot] run function stoneworld:cannonshoot
+execute as @a[tag=shot,predicate=!stoneworld:onground] run tag @s add leftground
+execute as @a[tag=leftground,predicate=stoneworld:onground] run attribute @s minecraft:fall_damage_multiplier base reset
+execute as @a[tag=leftground,predicate=stoneworld:onground] positioned as @s if entity @n[tag=cannon,distance=3..] run tag @s remove shot
+execute as @a[tag=leftground,predicate=stoneworld:onground] positioned as @s if entity @n[tag=cannon,distance=3..] run tag @s remove leftground
+
 
 # lootbox_15s.mcfunction is scheduled in load
 
