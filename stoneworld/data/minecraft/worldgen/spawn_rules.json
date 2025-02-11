@@ -44,14 +44,6 @@
         "spawn_limit": 5
       },
       {
-        "id": "minecraft:axolotl",
-        "despawn_rules": {
-          "persistent": false,
-          "distance": 64
-        },
-        "spawn_limit": 5
-      },
-      {
         "id": "minecraft:spider",
         "despawn_rules": {
           "persistent": false,
@@ -61,14 +53,6 @@
       },
       {
         "id": "minecraft:zombie",
-        "despawn_rules": {
-          "persistent": false,
-          "distance": 64
-        },
-        "spawn_limit": 5
-      },
-      {
-        "id": "minecraft:zombie_villager",
         "despawn_rules": {
           "persistent": false,
           "distance": 64
